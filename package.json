@@ -1,0 +1,12 @@
+{
+  "name": "use-math-rendering",
+  "version": "0.0.0",
+  "description": "Custom React hook to render math inside a DOM node",
+  "main": "index.js",
+  "author": "Dibyo Majumdar<dibyo.majumdar@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.7.0-alpha.0",
+    "react-dom": "^16.7.0-alpha.0"
+  }
+}
