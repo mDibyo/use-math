@@ -1,5 +1,5 @@
 {
-  "name": "use-math-rendering",
+  "name": "use-math",
   "version": "0.0.0",
   "description": "Custom React hook to render math inside a DOM node",
   "main": "dist/index.js",
