@@ -23,6 +23,6 @@ export default {
   plugins: [
     resolve(),
     commonjs(),
-    css({ output: 'index.css' }),
+    css(),
   ],
 }
