@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useLayoutEffect } from 'react';
 import renderMathInElement from 'katex/contrib/auto-render/auto-render';
 
 import 'katex/dist/katex.css';
@@ -8,7 +8,7 @@ function useMath(elementRef) {
     renderMathInElement(elementRef.current);
   }
 
-  useEffect(renderMath);
+  useLayoutEffect(renderMath);
 }
 
 export default useMath;
