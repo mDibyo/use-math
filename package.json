@@ -7,7 +7,7 @@
   "author": "Dibyo Majumdar<dibyo.majumdar@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mDibyo/react-compose-context-consumers.git"
+    "url": "git+https://github.com/mDibyo/use-math.git"
   },
   "keywords": [
     "react",
