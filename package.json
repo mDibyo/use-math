@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "Custom React hook to render math inside a DOM node",
   "main": "index.js",
+  "module": "index.es.js",
   "author": "Dibyo Majumdar<dibyo.majumdar@gmail.com>",
   "license": "MIT",
   "scripts": {
