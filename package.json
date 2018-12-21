@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "Dibyo Majumdar<dibyo.majumdar@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "rollup -c"
+  },
   "peerDependencies": {
     "react": "^16.7.0-alpha.0",
     "react-dom": "^16.7.0-alpha.0"
@@ -18,6 +21,11 @@
     "react-dom": "^16.7.0-alpha.0",
     "rollup": "^0.67.0",
     "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-css-only": "^0.4.0",
     "rollup-plugin-node-resolve": "^3.4.0"
+  },
+  "dependencies": {
+    "katex": "^0.10.0"
   }
 }
