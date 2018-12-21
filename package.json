@@ -30,7 +30,8 @@
     "rollup": "^0.67.0",
     "rollup-plugin-commonjs": "^9.2.0",
     "rollup-plugin-css-only": "^0.4.0",
-    "rollup-plugin-node-resolve": "^3.4.0"
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-peer-deps-external": "^2.2.0"
   },
   "dependencies": {
     "katex": "^0.10.0"

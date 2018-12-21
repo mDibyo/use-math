@@ -1,3 +1,4 @@
+import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 import resolve from 'rollup-plugin-node-resolve';
 import commonjs from 'rollup-plugin-commonjs';
 import css from 'rollup-plugin-css-only';
@@ -10,11 +11,8 @@ export default {
     file: pkg.main,
     format: 'cjs',
   },
-  external: [
-    'react',
-    'react-dom',
-  ],
   plugins: [
+    peerDepsExternal(),
     resolve(),
     commonjs(),
     css(),
